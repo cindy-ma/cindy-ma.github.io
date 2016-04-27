@@ -1,0 +1,285 @@
+body {
+font-family: "Lato", Helvetica, Arial, Verdana, sans-serif;
+background: #B4B8AB;
+color: black;
+}
+
+#background {
+	background: url("../img/coffee.jpeg");
+	position: absolute;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-size: cover;
+	overflow: hidden;
+}
+.transparent{
+	background:rgba(255,255,255,0.1);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-size: cover;
+	overflow: scroll;
+}
+#background2 {
+	background: url("../img/mango.jpeg");
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-size: cover;
+	overflow: scroll;
+}
+#background3 {
+	background: url("../img/rose.jpeg");
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-size: cover;
+}
+
+#logo {
+	margin: 0 auto;
+	padding: 1em;
+	border: 5px solid black;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 20px;
+	display: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#banner {
+	font-size: 60px;
+}
+#subbanner {
+	font-size: 20px;
+	font-style: italic;
+	letter-spacing: 4px;
+}
+
+#city {
+	font-size: 20px;
+	font-style: italic;
+	letter-spacing: 4px;
+}
+
+nav {
+	width: 100%;
+	text-align: center;
+}
+
+ul {
+	text-align: center;
+	position: relative;
+	display: inline-block;
+}
+
+.navbar-item {
+	float: left;
+	display: block;
+	padding-top: 16px;
+	padding-right: 20px;
+	padding-bottom: 16px;
+	padding-left: 20px;
+	margin-right: 5em;
+	text-align: center;
+	text-decoration: none;
+	width: 150px;
+	text-transform: uppercase;
+	background-color: black;
+}
+
+.navbar-item a {
+	text-decoration: none;
+	color: #FEFEFF;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 0 auto;
+}
+
+
+/* Carousel */
+
+.carousel-container {
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+
+#carousel {
+	width: 4800px;
+	height: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+   	transition: all 0.5s;
+   	background:rgba(0,0,0,0.3);
+}
+
+.carousel-item {
+	width: 960px;
+	position: relative;
+	height: 100%;
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+.img-scaled {
+	width: 100%;
+	height: 100%;
+}
+
+.img-scaled-wh {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.page-wrapper {
+	height: 100%;
+	width: 100%;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+}
+
+/* Carousel previous button */
+#carousel-prev {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    left: 60px;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.3s;
+}
+
+/* Carousel next button */
+#carousel-next {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    right: 60px;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.3s;
+}
+
+.quote, .text {
+	position: absolute;
+	font-size: 36px;
+	color: white;
+	font-weight: 700;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+   	transform: translateX(-50%) translateY(-50%);
+}
+
+.author {
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: .2rem;
+	text-transform: uppercase;
+	margin-top: 10px;
+	text-align: center;
+}
+
+/* Contact */
+
+.container {
+	width: 960px;
+	margin: 0px auto;
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+.thumbnail {
+	margin-top: 5%;
+	margin-bottom: 5%; 
+}
+
+#thumbnail img {
+}
+
+#header {
+	font-size: 50px;
+	font-weight: 800; 
+	margin-top: 5px;
+}
+
+#subheader {
+	font-style: italic;
+	font-weight: 600;
+	padding: 10px;
+}
+
+#description {
+	font-size: 15px;
+	line-height: 1.5em;
+	margin: 0px auto;
+	width: 650px;
+	padding: 10px;
+
+}
+
+#link {
+	padding-top: 16px;
+	padding-right: 20px;
+	padding-bottom: 16px;
+	padding-left: 20px;
+	margin-right: 5em;
+	text-align: center;
+	text-decoration: none;
+	width: 150px;
+	background-color: black;
+	font-weight: 400;
+	font-size: 15px;
+	text-decoration: none;
+	color: #FEFEFF;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 0 auto;
+}
+
+#hometext {
+	width: 100%;
+	height: 300px;
+	position: relative;
+	padding-top: 50px;
+	background:rgba(255,255,255,0.3);
+}
+
+
